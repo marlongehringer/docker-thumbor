@@ -1,6 +1,9 @@
 #!/bin/bash
 set -e
 
+mkdir -p /var/cache/nginx/proxy
+chown -R www-data:www-data /var/cache/nginx/proxy
+
 # If not set we use thumbor host default value
 if [ -z $THUMBOR_DEFAULT_HOST ]; then
     THUMBOR_DEFAULT_HOST=thumbor
