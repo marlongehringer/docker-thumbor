@@ -8,3 +8,5 @@ graphicsmagick
 libgraphicsmagick++3 
 libgraphicsmagick3
 libboost-python-dev
+libgraphicsmagick++1-dev
+libboost-python-dev
